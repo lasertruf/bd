@@ -1,0 +1,13 @@
+<div class="pic" fxLayout="column" fxLayoutAlign="space-around center">
+<br>
+    <img *ngIf="state==1" src="assets/noeff.png" alt="" width="400px" height="400px">
+    <img *ngIf="state==2" src="assets/cakeface.png" alt="" width="400px" height="400px">
+</div>
+
+<div fxLayout="column" fxLayoutAlign="space-around center">
+    <br>
+    <br>
+    <button mat-raised-button style="background-color: red; color: white;" (click)="clickcake()">Throw Cake</button>
+
+
+</div>
